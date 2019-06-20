@@ -26,6 +26,8 @@ code vscode-cpp-devcontainer # open by visual studio code
 
 1. `Cmake: Quick Start` in Command Pallet
 1. Configure in dialog
+    1. Enter a name for new project.
+        * Enter any project name
     1. No CMake kits are available. What would you like to do?
         * `Scan for kits`
     1. Select a Kit
