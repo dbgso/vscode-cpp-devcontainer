@@ -4,7 +4,8 @@ services:
   cpp:
     build: .
     volumes:
-      - ../data:/data
+      - ../data/aws-doc-sdk-examples/cpp/example_code/s3/:/data
+      - $HOME/.aws/:/root/.aws
     working_dir: /data
     tty: true
     # to use gdb
